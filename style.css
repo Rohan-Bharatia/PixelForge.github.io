@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --accent-color: #ee461f;
@@ -10,7 +10,6 @@ body {
   padding: 0px;
   background-color: #e8e8e8;
   font-family: "Roboto Slab", serif;
-  overflow: hidden;
 }
 
 .navbar {
@@ -73,8 +72,8 @@ body {
 }
 
 .container {
-  margin-top: 7.5px;
-  margin-left: 7.5px;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 .container h1,
