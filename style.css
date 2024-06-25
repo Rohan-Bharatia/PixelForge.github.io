@@ -10,6 +10,7 @@ body {
   padding: 0px;
   background-color: #e8e8e8;
   font-family: "Roboto Slab", serif;
+  overflow: hidden;
 }
 
 .navbar {
@@ -72,8 +73,8 @@ body {
 }
 
 .container {
-  margin: 5px;
-  padding: 5px;
+  margin-top: 7.5px;
+  margin-left: 7.5px;
 }
 
 .container h1,
