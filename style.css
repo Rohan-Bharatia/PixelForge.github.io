@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 :root {
   --accent-color: #ee461f;
 }
@@ -16,6 +18,7 @@ body {
   position: fixed;
   top: 0;
   height: 75px;
+  font-family: "Roboto Slab", serif;
 }
 
 .navbar h2 {
