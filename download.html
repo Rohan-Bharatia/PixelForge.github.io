@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./download.css">
   <link rel="icon" href="assets/logo.ico" type="image/x-icon">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <title>PixelForge.github.io</title>
 </head>
 
@@ -20,46 +21,22 @@
     <a href="https://rohan-bharatia.github.io/PixelForge.github.io/about.html">About</a>
   </div>
   <div class="container">
+    <br>
+    <br>
+    <br>
     <h1>Download PixelForge</h1>
     <hr>
-    <a class="download"></a>
-    <div class="platforms" id="platforms">
-      <a href="#Windows" data-os="Windows"></a>
-      <a href="#MacOS" data-os="MacOS"></a>
-      <a href="#Linux" data-os="Linux"></a>
+    <div class="download" class="windows">
+      <h2>Download for Windows</h2>
+      <button><ion-icon name="logo-windows"></ion-icon>Download</button>
     </div>
-
-    <div class="installer" id="Windows">
-      <div class="info" data-weight="71.2 KB"></div>
-      <div class="details">
-        <p>Windows installer</p>
-        <span>Version 1.0.0</span>
-        <ul><li>...</li></ul>
-      </div>
-      <label for="progress-windows"><input type="radio" id="progress-windows"/><span></span></label>
-      <a class="close" href="#"></a>
+    <div class="download" class="macos">
+      <h2>Download for MacOS</h2>
+      <button><ion-icon name="logo-apple"></ion-icon>Download</button>
     </div>
-
-    <div class="installer" id="MacOS">
-      <div class="info" data-weight="71.2 KB"></div>
-      <div class="details">
-        <p>MacOS installer</p>
-        <span>Version 1.0.0</span>
-        <ul><li>...</li></ul>
-      </div>
-      <label for="progress-macos"><input type="radio" id="progress-macos"/><span></span></label>
-      <a class="close" href="#"></a>
-    </div>
-
-    <div class="installer" id="Linux">
-      <div class="info" data-weight="71.2 KB"></div>
-      <div class="details">
-        <p>Linux installer</p>
-        <span>Version 1.0.0</span>
-        <ul><li>...</li></ul>
-      </div>
-      <label for="progress-linux"><input type="radio" id="progress-linux"/><span></span></label>
-      <a class="close" href="#"></a>
+    <div class="download" class="linux">
+      <h2>Download for Linux</h2>
+      <button><ion-icon name="logo-tux"></ion-icon>Download</button>
     </div>
   </div>
 </body>

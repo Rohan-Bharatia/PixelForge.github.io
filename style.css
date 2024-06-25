@@ -2,6 +2,9 @@
 
 :root {
   --accent-color: #ee461f;
+  --windows-color: #00a4ef;
+  --macos-color: #030303;
+  --linux-color: #f2b632;
 }
 
 html,
@@ -99,4 +102,80 @@ body::-webkit-scrollbar {
 .container span a {
   color: var(--accent-color);
   text-decoration: underline;
+}
+
+.container .download {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  align-self: auto;
+}
+
+.container .download .windows {
+  border-color: var(--windows-color);
+  background-image: url("assets/windows.webp");
+  color:#e8e8e8;
+  width: 200px;
+  height: 100px;
+}
+.container .download .windows ion-icon {
+  color: var(--windows-color);
+}
+
+.container .download .macos {
+  border-color: var(--macos-color);
+  background-image: url("assets/macos.webp");
+  color:#e8e8e8;
+  width: 200px;
+  height: 100px;
+}
+.container .download .macos ion-icon {
+  color: var(--macos-color);
+}
+
+.container .download .linux {
+  border-color: var(--linux-color);
+  background-image: url("assets/linux.webp");
+  color:#e8e8e8;
+  width: 200px;
+  height: 100px;
+}
+.container .download .linux ion-icon {
+  color: var(--linux-color);
+}
+
+.container .download .button:hover::after {
+  scale: 110%;
+}
+
+.container .download .button::after {
+  animation: download 3s;
+}
+
+@keyframes download {
+  0% {
+    color: #e8e8e87f;
+		width: 5%;
+		opacity: 1;
+	}
+	35% {
+		width: 17%;
+	}
+	64% {
+		width: 51%;
+	}
+	81% {
+		width: 70%;
+	}
+	90% {
+		width: 86%;
+		opacity: 1;
+	}
+	100% {
+		width: 100%;
+		opacity: 0;
+	}
 }
