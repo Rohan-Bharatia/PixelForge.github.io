@@ -90,12 +90,9 @@ body::-webkit-scrollbar {
 
 .container h1,
 .container h2,
-.container h3 {
-  font-family: "Roboto Slab", serif;
-  color: #333333;
-}
-
+.container h3,
 .container p {
+  font-family: "Roboto Slab", serif;
   color: #333333;
 }
 
@@ -114,7 +111,7 @@ body::-webkit-scrollbar {
   align-self: auto;
 }
 
-.container .download .windows {
+.container .download .windows button {
   border-color: var(--windows-color);
   background-image: url("assets/windows.webp");
   color:#e8e8e8;
@@ -125,7 +122,7 @@ body::-webkit-scrollbar {
   color: var(--windows-color);
 }
 
-.container .download .macos {
+.container .download .macos button {
   border-color: var(--macos-color);
   background-image: url("assets/macos.webp");
   color:#e8e8e8;
@@ -136,7 +133,7 @@ body::-webkit-scrollbar {
   color: var(--macos-color);
 }
 
-.container .download .linux {
+.container .download .linux button {
   border-color: var(--linux-color);
   background-image: url("assets/linux.webp");
   color:#e8e8e8;
