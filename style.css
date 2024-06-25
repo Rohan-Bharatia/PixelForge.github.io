@@ -10,6 +10,14 @@ body {
   padding: 0px;
   background-color: #e8e8e8;
   font-family: "Roboto Slab", serif;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .navbar {
@@ -87,7 +95,7 @@ body {
   color: #333333;
 }
 
-.container span {
+.container span a {
   color: var(--accent-color);
   text-decoration: underline;
 }
