@@ -142,3 +142,44 @@ body::-webkit-scrollbar {
 .container .download .linux ion-icon {
   color: var(--linux-color);
 }
+
+.container .sidenav {
+  font-family: "Roboto Slab", serif;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 75;
+  left: 0;
+  background-color: #585858;
+  padding-top: 20px;
+  display: flex;
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.container .sidenav #links
+{
+  list-style-type: none;
+}
+
+.container .sidenav #links li a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #cccccc;
+  display: block;
+}
+
+.container .sidenav #links li a:hover {
+  color: #e8e8e8;
+}
+
+@media screen and (max-height: 450px) {
+  .container .sidenav { padding-top: 15px; }
+  .container .sidenav #links li a { font-size: 18px; }
+}
+
+.container .content {
+  margin-left: 160px;
+}

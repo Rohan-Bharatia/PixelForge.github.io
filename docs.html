@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="assets/logo.ico" type="image/x-icon">
+  <script defer src="./script.js"></script>
   <title>PixelForge.github.io</title>
 </head>
 
@@ -24,20 +25,27 @@
     <br>
     <div class="sidenav">
       <h2>Menu</h2>
-      <a class="active" href="https://rohan-bharatia.github.io/PixelForge.github.io/docs.html">Home</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/window.html">Window</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/vector.html">Vector</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/matrix.html">Matrix</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/ray.html">Ray</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/camera.html">Camera</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/color.html">Color</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/material.html">Material</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/raycast.html">Raycast</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/bbox.html">Bbox</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/bvh.html">BVH</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/graphics.html">Graphics</a>
-      <a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/physics.html">Physics</a>
-    </div>  </div>
+      <input type="text" id="mySearch" onkeyup="handleSearchbar()" placeholder="Search.." title="Type in a category">
+      <ul id="links">
+        <li><a class="active" href="https://rohan-bharatia.github.io/PixelForge.github.io/docs.html">Home</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/window.html">Window</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/vector.html">Vector</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/matrix.html">Matrix</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/ray.html">Ray</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/camera.html">Camera</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/color.html">Color</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/material.html">Material</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/raycast.html">Raycast</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/bbox.html">Bbox</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/bvh.html">BVH</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/graphics.html">Graphics</a></li>
+        <li><a href="https://rohan-bharatia.github.io/PixelForge.github.io/docs/physics.html">Physics</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <h1>PixelForge Documentation</h1>
+      <p>This documentation will guide you through, provide an overview of, and explain how to use the various features available in PixelForge.</p>
+    </div>
 </body>
 
 </html>
